@@ -19,6 +19,10 @@
 		A9F955E617584F2F0010F21A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F955E417584F2F0010F21A /* MainStoryboard.storyboard */; };
 		A9F955E917584F2F0010F21A /* UPGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F955E817584F2F0010F21A /* UPGViewController.m */; };
 		A9F955F317584FA60010F21A /* CPSwitchVew.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F955F217584FA60010F21A /* CPSwitchVew.m */; };
+		A9F955FA17586F020010F21A /* blue_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F955F617586F020010F21A /* blue_Back.png */; };
+		A9F955FB17586F020010F21A /* cry.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F955F717586F020010F21A /* cry.png */; };
+		A9F955FC17586F020010F21A /* grayBack.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F955F817586F020010F21A /* grayBack.png */; };
+		A9F955FD17586F020010F21A /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F955F917586F020010F21A /* smile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		A9F955E817584F2F0010F21A /* UPGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPGViewController.m; sourceTree = "<group>"; };
 		A9F955F117584FA60010F21A /* CPSwitchVew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSwitchVew.h; sourceTree = "<group>"; };
 		A9F955F217584FA60010F21A /* CPSwitchVew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSwitchVew.m; sourceTree = "<group>"; };
+		A9F955F617586F020010F21A /* blue_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_Back.png; sourceTree = "<group>"; };
+		A9F955F717586F020010F21A /* cry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cry.png; sourceTree = "<group>"; };
+		A9F955F817586F020010F21A /* grayBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayBack.png; sourceTree = "<group>"; };
+		A9F955F917586F020010F21A /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,7 @@
 		A9F955D317584F2F0010F21A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9F955F517586F020010F21A /* images */,
 				A9F955D417584F2F0010F21A /* CPSwitchViewSample-Info.plist */,
 				A9F955D517584F2F0010F21A /* InfoPlist.strings */,
 				A9F955D817584F2F0010F21A /* main.m */,
@@ -119,6 +128,17 @@
 			);
 			name = CPSwitchView;
 			path = ../CPSwitchView;
+			sourceTree = "<group>";
+		};
+		A9F955F517586F020010F21A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A9F955F617586F020010F21A /* blue_Back.png */,
+				A9F955F717586F020010F21A /* cry.png */,
+				A9F955F817586F020010F21A /* grayBack.png */,
+				A9F955F917586F020010F21A /* smile.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +198,10 @@
 				A9F955E117584F2F0010F21A /* Default@2x.png in Resources */,
 				A9F955E317584F2F0010F21A /* Default-568h@2x.png in Resources */,
 				A9F955E617584F2F0010F21A /* MainStoryboard.storyboard in Resources */,
+				A9F955FA17586F020010F21A /* blue_Back.png in Resources */,
+				A9F955FB17586F020010F21A /* cry.png in Resources */,
+				A9F955FC17586F020010F21A /* grayBack.png in Resources */,
+				A9F955FD17586F020010F21A /* smile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
